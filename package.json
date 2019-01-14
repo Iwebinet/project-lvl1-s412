@@ -24,8 +24,14 @@
   "homepage": "https://github.com/Iwebinet/project-lvl1-s412#readme",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
-   },  
+  },
   "files": [
     "dist"
-  ]  
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
 }
