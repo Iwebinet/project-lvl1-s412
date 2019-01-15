@@ -1,6 +1,6 @@
 {
   "name": "brain_games_iweb",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Brain Games",
   "main": "index.js",
   "scripts": {
@@ -33,5 +33,8 @@
     "@babel/core": "^7.2.2",
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.2.3"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
   }
 }
