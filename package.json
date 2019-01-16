@@ -1,6 +1,6 @@
 {
   "name": "brain_games_iweb",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Brain Games",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/Iwebinet/project-lvl1-s412#readme",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "files": [
     "dist"
