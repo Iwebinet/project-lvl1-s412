@@ -1,6 +1,6 @@
 {
   "name": "brain_games_iweb",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Brain Games",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
