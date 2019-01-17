@@ -6,7 +6,8 @@ const runEven = () => {
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
 
-  for (let counter = 1; counter <= 3; counter += 1) {
+  const numQuestions = 3;
+  for (let counter = 1; counter <= numQuestions; counter += 1) {
     const isEven = question => question % 2 === 0;
     const question = Math.floor(Math.random() * (99 - 1 + 1)) + 1;
     const correct = isEven(question) ? 'yes' : 'no';
