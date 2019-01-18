@@ -18,10 +18,12 @@ const runEven = () => {
       console.log('Correct!');
     } else {
       console.log(`'${reply}' is wrong answer ;(. Correct answer was '${answer}'.`);
-      return console.log(`Let's try again, ${name}!`);
+      console.log(`Let's try again, ${name}!`);
+      return null;
     }
   }
-  return console.log(`Congratulations, ${name}!`);
+  console.log(`Congratulations, ${name}!`);
+  return null;
 };
 
 export default runEven;
