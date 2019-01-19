@@ -7,13 +7,11 @@ export const helloName = () => {
   console.log(`Hello, ${askName()}!`);
 };
 
-
 const getUserAnswer = (question) => {
   console.log(`Question: ${question}`);
   const answer = readlineSync.question('Your answer: ');
   return answer;
 };
-
 
 const numQuestions = 3;
 export const play = (description, getQuestionAnswer) => {
@@ -23,9 +21,8 @@ export const play = (description, getQuestionAnswer) => {
   console.log(`Hello, ${name}!`);
 
   for (let counter = 1; counter <= numQuestions; counter += 1) {
-    const gqa = getQuestionAnswer();
-    const question = gqa[0];
-    const correctAnswer = gqa[1];
+    const questionAnswer = getQuestionAnswer();
+    const [question, correctAnswer] = questionAnswer;
     const userAnswer = getUserAnswer(question);
 
     if (userAnswer === correctAnswer) {
@@ -33,9 +30,9 @@ export const play = (description, getQuestionAnswer) => {
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${name}!`);
-      return null;
+      return true;
     }
   }
   console.log(`Congratulations, ${name}!`);
-  return null;
+  return false;
 };

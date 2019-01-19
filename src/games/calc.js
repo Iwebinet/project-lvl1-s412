@@ -8,22 +8,22 @@ const getQuestionAnswer = () => {
   const y = getRandom(10);
   const operation = getRandom(3);
   let question;
-  let correct;
+  let correctAnswer;
   switch (operation) {
     case 1:
       question = `${x} + ${y}`;
-      correct = x + y;
+      correctAnswer = x + y;
       break;
     case 2:
       question = `${x} - ${y}`;
-      correct = x - y;
+      correctAnswer = x - y;
       break;
     default:
       question = `${x} * ${y}`;
-      correct = x * y;
+      correctAnswer = x * y;
       break;
   }
-  return [question, correct.toString()];
+  return [question, correctAnswer.toString()];
 };
 
 export default () => play(description, getQuestionAnswer);
