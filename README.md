@@ -11,3 +11,7 @@
 ## Running brain-calc game
 
 [![asciicast](https://asciinema.org/a/mSh6FVyfq75FyZYmkMEJwh0ZX.svg)](https://asciinema.org/a/mSh6FVyfq75FyZYmkMEJwh0ZX)
+
+## Running brain-gcd game
+
+[![asciicast](https://asciinema.org/a/M460wlOr4qfcYJshRMIXI14fj.svg)](https://asciinema.org/a/M460wlOr4qfcYJshRMIXI14fj)
