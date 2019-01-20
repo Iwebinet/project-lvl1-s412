@@ -15,3 +15,7 @@
 ## Running brain-gcd game
 
 [![asciicast](https://asciinema.org/a/M460wlOr4qfcYJshRMIXI14fj.svg)](https://asciinema.org/a/M460wlOr4qfcYJshRMIXI14fj)
+
+## Running brain-progression game
+
+[![asciicast](https://asciinema.org/a/BZITLeeSomNXX8u74r9Q895lU.svg)](https://asciinema.org/a/BZITLeeSomNXX8u74r9Q895lU)

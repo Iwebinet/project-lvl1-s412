@@ -1,5 +1,5 @@
 import getRandom from '../utils';
-import { play } from '..';
+import play from '..';
 
 const description = 'What is the result of the expression?';
 

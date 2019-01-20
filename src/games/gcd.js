@@ -1,5 +1,5 @@
 import getRandom from '../utils';
-import { play } from '..';
+import play from '..';
 
 const description = 'Find the greatest common divisor of given numbers.';
 

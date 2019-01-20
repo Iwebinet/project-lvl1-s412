@@ -1,5 +1,5 @@
 import getRandom from '../utils';
-import { play } from '..';
+import play from '..';
 
 const description = 'Answer "yes" if number even otherwise answer "no".';
 
