@@ -10,8 +10,8 @@ const getGreatestDenominator = (a, b) => {
 };
 
 const getQuestionAnswer = () => {
-  const x = getRandom(99);
-  const y = getRandom(99);
+  const x = getRandom(1, 99);
+  const y = getRandom(1, 99);
   const question = `${x} ${y}`;
   const correctAnswer = getGreatestDenominator(x, y);
   return [question, correctAnswer.toString()];

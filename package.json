@@ -1,6 +1,6 @@
 {
   "name": "brain_games_iweb",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "Brain Games",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,7 +23,11 @@
   "homepage": "https://github.com/Iwebinet/project-lvl1-s412#readme",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js",
+    "brain-gcd": "dist/bin/brain-gcd.js",
+    "brain-prime": "dist/bin/brain-prime.js",
+    "brain-progression": "dist/bin/brain-progression.js"
   },
   "files": [
     "dist"
